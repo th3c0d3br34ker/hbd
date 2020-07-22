@@ -1,0 +1,59 @@
+.message-div-1 {
+  display: flex;
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  width: 11rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.message-div-2 {
+  display: flex;
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  width: 11rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.message-div-3 {
+  display: flex;
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  width: 11rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.message-div-4 {
+  display: flex;
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  width: 11rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.message-div-5 {
+  width: 26rem;
+  display: flex;
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.message {
+  font-size: 1rem;
+  color: white;
+}

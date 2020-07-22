@@ -5,7 +5,7 @@ import Wishings from "./container/wishings/wishings.jsx";
 function App() {
   return (
     <div id="wishings">
-      <Wishings />
+      <Wishings start={new Date().getTime()} />
     </div>
   );
 }

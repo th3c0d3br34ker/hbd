@@ -1,0 +1,40 @@
+.typingdots {
+  margin-bottom: 0.2rem;
+  height: 4rem;
+  width: 10rem;
+  background-color: rgba(70, 70, 70, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.typingdots span {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0 2px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: dots;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.typingdots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typingdots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dots {
+  50% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}

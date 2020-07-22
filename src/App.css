@@ -1,1 +1,13 @@
+@import "./elements/TypingDots/typingdots.css";
+/* @import "./elements/Transition/transition.css"; */
+
+@import "./container/message/message.css";
 @import "./container/wishings/wishings.css";
+
+body {
+  transition-duration: 0.5s;
+}
+
+.hide {
+  display: none;
+}
