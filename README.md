@@ -30,7 +30,7 @@ npm run deploy
 
 ## Requirements
 
-You should have the [Node.js](https://nodejs.org/) installed in your machine.
+You should have [Node.js](https://nodejs.org/) installed in your machine.
 
 That's all! 😊
 
