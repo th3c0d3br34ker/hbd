@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import emoji from "react-easy-emoji";
-
 class Message extends Component {
   render() {
     return (

@@ -1,9 +1,9 @@
 .message-div-1 {
   display: flex;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
   height: 4rem;
-  width: 11rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  width: min-content;
+  background-color: rgba(206, 206, 206, 0.5);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
@@ -11,10 +11,10 @@
 
 .message-div-2 {
   display: flex;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
   height: 4rem;
-  width: 11rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  width: min-content;
+  background-color: rgba(206, 206, 206, 0.5);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
@@ -22,10 +22,10 @@
 
 .message-div-3 {
   display: flex;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
   height: 4rem;
-  width: 11rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  width: min-content;
+  background-color: rgba(206, 206, 206, 0.5);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
@@ -33,27 +33,28 @@
 
 .message-div-4 {
   display: flex;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
   height: 4rem;
-  width: 11rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  width: min-content;
+  background-color: rgba(206, 206, 206, 0.5);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
 }
 
 .message-div-5 {
-  width: 26rem;
+  width: min-content;
   display: flex;
-  margin-bottom: 0.2rem;
   height: 4rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  background-color: rgba(206, 206, 206, 0.5);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
 }
 
 .message {
-  font-size: 1rem;
-  color: white;
+  font-size: 1.5rem;
+  color: black;
+  width: max-content;
+  margin: 20px;
 }

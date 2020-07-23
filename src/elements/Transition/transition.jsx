@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Fade } from "react-reveal";
+import { Fade, Bounce } from "react-reveal";
 
 import TypingDots from "../TypingDots/typingdots.jsx";
 import Message from "../../container/message/message.jsx";
@@ -34,11 +34,13 @@ class Transition extends Component {
     }
     return (
       <div className="transition">
-        <Fade left delay={this.props.delay}>
+        <Fade bottom delay={this.props.delay} distance={"20px"}>
           {show ? (
             <TypingDots />
           ) : (
-            <Message id={this.props.id} message={this.props.message} />
+            <Bounce left>
+              <Message id={this.props.id} message={this.props.message} />
+            </Bounce>
           )}
         </Fade>
       </div>

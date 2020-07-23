@@ -1,8 +1,7 @@
 .typingdots {
-  margin-bottom: 0.2rem;
   height: 4rem;
-  width: 10rem;
-  background-color: rgba(70, 70, 70, 0.6);
+  width: 7.5rem;
+  background-color: rgba(206, 206, 206, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +14,8 @@
   width: 1.2rem;
   height: 1.2rem;
   margin: 0 2px;
-  background-color: rgb(56, 56, 56);
-  border-radius: 50%;
+  background-color: rgb(20, 19, 19);
+  border-radius: 60%;
   display: inline-block;
   animation-name: dots;
   animation-duration: 1s;
@@ -35,6 +34,6 @@
 @keyframes dots {
   50% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(10px) scale(1);
   }
 }
