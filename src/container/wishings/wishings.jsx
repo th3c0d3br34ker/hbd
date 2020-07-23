@@ -14,6 +14,7 @@ class Wishings extends Component {
               id={message.id}
               start={message.start}
               message={message.message}
+              delay={message.delay}
             />
           );
         })}
