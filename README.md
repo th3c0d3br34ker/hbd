@@ -8,24 +8,25 @@ This website displays birthday greeting messages sent by you.
 
 This website was build with [ReactJS](https://reactjs.org/) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Install dependancies.
+1.  Install dependancies.
 
-   ```shell
-   npm install
-   ```
+```shell
+npm install
+```
 
-2. Run it in your machine.
+2.  Run it in your machine.
 
-   ```shell
-   npm run start
-   ```
+```shell
+npm run start
+```
 
-3. To customize messages edit the [messages.js](./src/messages.js) file.
+3.  To customize messages edit the [messages.js](./src/messages.js) file.
 
-4. Want to deploy it?
-   ```shell
-   npm run deploy
-   ```
+4.  Want to deploy it?
+
+```shell
+npm run deploy
+```
 
 ## Requirements
 
