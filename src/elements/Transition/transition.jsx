@@ -16,7 +16,7 @@ class Transition extends Component {
   }
 
   componentDidMount() {
-    this.timerID = setInterval(() => this.tick(), 1000);
+    this.timerID = setInterval(() => this.tick(), 100);
   }
 
   tick() {
@@ -27,7 +27,7 @@ class Transition extends Component {
 
   render() {
     let show;
-    if (this.state.date < this.state.start + 1500) {
+    if (this.state.date < this.state.start + 1800) {
       show = true;
     } else {
       show = false;
@@ -38,7 +38,7 @@ class Transition extends Component {
           {show ? (
             <TypingDots />
           ) : (
-            <Bounce left>
+            <Bounce left distance={"20px"}>
               <Message id={this.props.id} message={this.props.message} />
             </Bounce>
           )}
