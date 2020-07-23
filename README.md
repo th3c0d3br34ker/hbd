@@ -34,6 +34,4 @@ You should have the [Node.js](https://nodejs.org/) installed in your machine.
 
 That's all! 😊
 
-```
-Liked this repository? why not 🌟 it.
-```
+> Liked this repository? why not 🌟 it.
