@@ -1,60 +1,15 @@
-.message-div-1 {
+.message-div {
   display: flex;
   margin-bottom: 0.6rem;
-  height: 4rem;
-  width: min-content;
+  height: min-content;
+  max-width: min-content;
   background-color: rgba(206, 206, 206, 0.5);
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-
-.message-div-2 {
-  display: flex;
-  margin-bottom: 0.6rem;
-  height: 4rem;
-  width: min-content;
-  background-color: rgba(206, 206, 206, 0.5);
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-
-.message-div-3 {
-  display: flex;
-  margin-bottom: 0.6rem;
-  height: 4rem;
-  width: min-content;
-  background-color: rgba(206, 206, 206, 0.5);
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-
-.message-div-4 {
-  display: flex;
-  margin-bottom: 0.6rem;
-  height: 4rem;
-  width: min-content;
-  background-color: rgba(206, 206, 206, 0.5);
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
-
-.message-div-5 {
-  width: min-content;
-  display: flex;
-  height: 4rem;
-  background-color: rgba(206, 206, 206, 0.5);
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  place-items: center;
   border-radius: 20px;
 }
 
 .message {
-  font-size: 1.5rem;
-  color: black;
   width: max-content;
   margin: 20px;
 }
