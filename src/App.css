@@ -2,6 +2,7 @@
 
 @import "./container/message/message.css";
 @import "./container/wishings/wishings.css";
+@import "./container/footer/footer.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
 

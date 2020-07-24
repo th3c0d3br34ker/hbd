@@ -1,0 +1,13 @@
+.footer-div {
+  align-items: center;
+  text-align: center;
+  color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 1.2vw;
+  padding: 0.5vh;
+}
