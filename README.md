@@ -4,6 +4,12 @@
 
 This website displays birthday greeting messages sent by you.
 
+## Features
+
+✔️ No external dependencies.  
+✔️ Responsive.  
+✔️ Pure CCS styling.  
+
 ## Setup
 
 This website was build with [ReactJS](https://reactjs.org/) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
