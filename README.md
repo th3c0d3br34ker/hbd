@@ -8,7 +8,7 @@ This website displays birthday greeting messages sent by you.
 
 ✔️ No external dependencies.  
 ✔️ Responsive.  
-✔️ Pure CCS styling.  
+✔️ Pure CCS styling.
 
 ## Setup
 
@@ -27,7 +27,6 @@ npm run start
 ```
 
 3.  To customize messages edit the [messages.js](./src/messages.js) file.
-
 4.  Want to deploy it?
 
 ```shell
