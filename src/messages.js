@@ -1,34 +1,27 @@
-import emoji from "react-easy-emoji";
-
 const Messages = [
   {
     id: "1",
     start: new Date().getTime(),
-    message: emoji("Hi, there! 👋"),
+    message: "Hi, there! 👋",
     delay: 0,
   },
   {
     id: "2",
     start: new Date().getTime() + 2200,
-    message: emoji(
-      "So you have finally grown one year older but you have the brains of a child 😂"
-    ),
+    message:
+      "So you have finally grown one year older but you have the brains of a child 😂",
     delay: 2200,
   },
   {
     id: "3",
     start: new Date().getTime() + 4200,
-    message: emoji(
-      "What would you like for a gift... face mask 😷 or gloves🧤?"
-    ),
+    message: "What would you like for a gift... face mask 😷 or gloves🧤?",
     delay: 4200,
   },
   {
     id: "4",
     start: new Date().getTime() + 6200,
-    message: emoji(
-      "Anyways keeping that aside, a very happy birthday to you 🎂"
-    ),
+    message: "Anyways keeping that aside, a very happy birthday to you 🎂",
     delay: 6200,
   },
   {
